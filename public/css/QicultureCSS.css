@@ -1,0 +1,624 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #fff;
+    font-family: "微软雅黑", "宋体", "Arial Narrow";
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c00;
+    cursor: pointer;
+}
+
+body {
+    background-image: url("../images/bgpic.jpg");
+}
+
+div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.weather {
+    height: 80px;
+    padding-top: 10px;
+}
+
+.weather-real {
+    margin-left: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    height: 70px;
+    font-size: 0;
+}
+
+.logo-float {
+    position: absolute;
+    width: 45%;
+    float: left;
+    bottom: 8px;
+}
+
+/*.header img {*/
+    /*height: 59px;*/
+/*}*/
+
+.search {
+    width: 300px;
+    height: 45px;
+    float: right;
+    position: relative;
+}
+
+.bn {
+    width: 45px;
+    height: 40px;
+}
+
+.header-find button {
+    background: transparent;
+}
+
+.header-find input {
+    border: 0.1em solid gainsboro;
+    height: 40px;
+    width: 80%;
+    border-right: 0;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+}
+
+.header-find button {
+    border: 0.1em solid gainsboro;
+    background-image: url("../images/magglass.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: 0;
+    bottom: 0;
+    right: 0;
+    height: 45px;
+    position: absolute;
+}
+
+.header-find input:focus {
+    border-color: gainsboro;
+}
+
+.nav {
+    width: 100%;
+    height: 57px;
+    background-color: #946c54;
+}
+
+.navreal {
+    width: 1000px;
+}
+
+.nav ul li {
+    width: 11.1%;
+    float: left;
+    text-align: center;
+    line-height: 57px;
+    color: white;
+
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    width: 100px;
+}
+
+li a:hover, a:visited {
+    background: #8B4513;
+}
+
+.nav .firstpage {
+    background: #8B4513;
+}
+
+.mainnew {
+    height: 360px;
+    margin-top: 40px;
+}
+
+.inform {
+    width: 28%;
+    height: 350px;
+    float: left;
+}
+
+.research {
+    width: 40%;
+    height: 350px;
+    float: left;
+}
+
+.main-pic {
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.all-top {
+    height: 45px;
+    text-align: center;
+    border-radius: 0.3em;
+    color: white;
+    background-color: rgba(145, 63, 0, 0.4);
+    font-size: 1.2em;
+    font-family: "微软雅黑";
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.inform-top {
+    width: 97%;
+}
+
+.all-bottom-in {
+    width: 100%;
+}
+
+.inform-bottom {
+    width: 95%;
+    height: auto;
+    color: #4F4F4F;
+}
+
+.colone {
+    width: 94%;
+    line-height: 30px;
+}
+
+.coltwo {
+    width: 41%;
+}
+
+table {
+    table-layout: fixed;
+    width: 97%;
+}
+
+.colone {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.all-bottom hr {
+    border: 0.02em dashed gainsboro;
+}
+
+.all-bottom {
+    font-size: 0.9em;
+    color: #4F4F4F;
+}
+
+.onTop {
+    width: 95%;
+    text-align: center;
+}
+
+.dynamic {
+    height: 360px;
+    margin-top: 70px;
+}
+
+.dynamic-pic {
+    width: 28%;
+    height: 350px;
+    float: left;
+    margin-right: 10px;
+}
+
+.dynamic-pic-top {
+    width: 100%;
+}
+
+.dynamic-pic-top img {
+    width: 100%;
+}
+
+.dynamic-pic-bottom {
+    width: 100%;
+}
+
+.dynamic-pic-bottom p {
+    font-size: 1.06em;
+    color: #033a32;
+}
+
+.dynamic-news {
+    width: 36%;
+    height: 350px;
+    float: left;
+}
+
+.talk {
+    width: 35%;
+    height: 350px;
+    float: left;
+}
+
+.boundary {
+    margin-top: 30px;
+}
+
+.fenjie {
+    width: 100%;
+}
+
+.wechat {
+    height: 360px;
+    margin-top: 40px;
+}
+
+.wechat-pic {
+    width: 28%;
+    height: 350px;
+    float: left;
+    margin-right: 10px;
+    margin: 0 auto;
+}
+
+.QRcode {
+    margin-top: 35px;
+}
+
+.wechat-news {
+    width: 36%;
+    height: 350px;
+    float: left;
+}
+
+.gain {
+    width: 36%;
+    height: 350px;
+    float: left;
+}
+
+.guanzibook-top {
+    width: 100%;
+    height: 45px;
+    text-align: left;
+    color: white;
+    background-color: rgba(145, 63, 0, 0.4);
+    font-size: 1.2em;
+    font-family: "微软雅黑";
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.guanzibook-bottom {
+    width: 100%;
+    height: 230px;
+    background-color: #F5F5F5;
+}
+
+.bottom-left {
+    float: left;
+    width: 48%;
+}
+
+.bottom-right {
+    margin-top: 20px;
+    float: left;
+    width: 46%;
+    margin-left: 20px;
+}
+
+.guanzibook-bottom hr {
+    border: 0.02em dashed gainsboro;
+}
+
+.guanzibook-bottom {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.bottom-right-pic {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.picnew {
+    margin-top: 30px;
+}
+
+.picnewjs {
+    width: 100%;
+    height: 240px;
+    background-color: #F5F5F5;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.link-bottom {
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 70px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+span {
+    line-height: 30px;
+}
+
+.link-bottom span a {
+    color: #808080;
+}
+
+.footer-hr {
+    border: 1px solid crimson;
+}
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    height: 110px;
+}
+
+.copying {
+    padding-top: 10px;
+    font-size: 0.95em;
+    text-align: center;
+    width: 60%;
+    height: 40px;
+    color: grey;
+}
+
+.footer-link {
+    font-size: 0.95em;
+    text-align: center;
+    width: 60%;
+    height: 40px;
+    color: grey;
+}
+
+.footer a {
+    color: grey;
+}
+
+.footer a:hover {
+    color: red;
+}
+
+.imgbox {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.imgbox-act {
+    width: 250px;
+    display: inline-block;
+}
+
+.img-under {
+    width: 250px;
+}
+
+.img-on {
+    width: 250px;
+}
+
+.imgbox img {
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+}
+
+.imgbox-act {
+    display: inline-block;
+}
+
+.img-under {
+    width: 250px;
+    text-align: center;
+    color: grey;
+    font-size: 0.95em;
+}
+
+.imgbox a {
+    margin-right: 20px;
+}
+
+#frame {
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    overflow: hidden;
+}
+
+#dis {
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+#dis li {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    margin: 0 50px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background: #000;
+}
+
+#photos img {
+    float: left;
+    width: 300px;
+    height: 320px;
+}
+
+#photos {
+    position: absolute;
+    z-index: 9;
+    width: calc(300px * 5);
+}
+
+.play {
+    animation: ma 8s ease-out infinite alternate;
+}
+
+@keyframes ma {
+    0%, 48% {
+        margin-left: 0;
+    }
+    52%, 100% {
+        margin-left: -300px;
+    }
+}
+
+.num {
+    position: absolute;
+    z-index: 10;
+    display: inline-block;
+    right: 10px;
+    bottom: 0;
+    background: black;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.num:hover {
+    background: white;
+    color: black;
+}
+
+.num:hover, #photos:hover {
+    animation-play-state: paused;
+}
+
+.num:nth-child(2) {
+    margin-right: 30px
+}
+
+#a1:hover ~ #photos {
+    animation: ma1 .5s ease-out forwards;
+}
+
+#a2:hover ~ #photos {
+    animation: ma2 .5s ease-out forwards;
+}
+
+@keyframes ma1 {
+    0% {
+        margin-left: -300px;
+    }
+    100% {
+        margin-left: -0;
+    }
+}
+
+@keyframes ma2 {
+    0% {
+        margin-left: 300px;
+    }
+    100% {
+        margin-left: -0;
+    }
+}
+
+
+/*下方滚动图片*/
+.scrollbar{
+    height: 215px;
+    width: 1060px;
+    margin-left: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.scrollbar ul{
+    margin:0;
+    padding:0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.scrollbar li{
+    height: 215px;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.scrollbar img{
+    height: 172px;
+}
+.scrollbar p{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+
+.main-6{
+    margin-top: 20px;
+    height: 290px;
+}
+.main-6 div:nth-child(1),.main-7 div:nth-child(1){
+    height: 45px;
+    width: 1060px;
+    padding-left: 20px;
+    text-align: left;
+}
+.main-title{
+
+    color: white;
+    background-color: #D0AC8A;
+    height: 45px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 47px;
+}
